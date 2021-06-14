@@ -82,3 +82,7 @@
 [submodule "spec2017"]
 	path = spec2017
 	url = https://github.com/black-parrot-sdk/spec2017.git
+[submodule "splash3"]
+	path = splash3
+	url = https://github.com/muwyse/Splash-3.git
+	branch = riscv-simulation
