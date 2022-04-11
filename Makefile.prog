@@ -77,7 +77,7 @@ riscv-dv_build:
 	$(MAKE) -C $(riscvdv_dir)
 
 splash3_build:
-	$(MAKE) -C $(splash3_dir)
+	$(MAKE) -C $(splash3_dir) build
 
 # Default Linux build is single core and terminates immediately
 OPENSBI_NCPUS ?= 1
